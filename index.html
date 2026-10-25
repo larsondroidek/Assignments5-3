@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Typography showcase using Playfair Display and Source Sans 3 from Google Fonts." />
+    <title>Typography Showcase</title>
+
+    <!-- Google Fonts: Playfair Display (headings) + Source Sans 3 (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <h1>Typography Showcase</h1>
+      <p class="subtitle">Playfair Display for headings &middot; Source Sans 3 for body text</p>
+    </header>
+
+    <main>
+      <!-- ===== Section 1: Heading Styles ===== -->
+      <section id="headings">
+        <h2>Heading Styles</h2>
+
+        <h1 class="demo">Heading 1 — Bold and Large</h1>
+        <h2 class="demo">Heading 2 — Section Title</h2>
+        <h3 class="demo">Heading 3 — Sub-section Title</h3>
+        <h4 class="demo">Heading 4 — Small Heading</h4>
+
+        <h3 class="centered">Centered Heading</h3>
+        <h3 class="right">Right-aligned Heading</h3>
+        <h3 class="spaced">Wide Letter-Spacing Heading</h3>
+        <h3 class="underlined">Underlined Heading</h3>
+      </section>
+
+      <!-- ===== Section 2: Paragraph Styles ===== -->
+      <section id="paragraphs">
+        <h2>Paragraph Styles</h2>
+
+        <h3>Default Paragraph</h3>
+        <p>
+          Good typography makes text easy and pleasant to read. The font,
+          size, spacing and alignment all work together to guide the reader's
+          eyes across the page.
+        </p>
+
+        <h3>Tight vs. Comfortable Line Height</h3>
+        <p class="tight">
+          This paragraph uses a tight line-height of 1.1. Lines sit close
+          together, which can feel crowded when the text runs over several lines
+          like this one does.
+        </p>
+        <p class="comfortable">
+          This paragraph uses a comfortable line-height of 1.8. The extra space
+          between lines makes longer text easier to read, which is why body text
+          usually uses 1.5 to 1.8.
+        </p>
+
+        <h3>Text Alignment</h3>
+        <p class="align-left">Left-aligned text is the default and the easiest to read for long paragraphs.</p>
+        <p class="align-center">Center-aligned text works well for short quotes and titles.</p>
+        <p class="align-right">Right-aligned text can be used for dates, signatures and captions.</p>
+        <p class="align-justify">
+          Justified text stretches each line to the same width, creating clean
+          edges on both sides. It looks formal, like a newspaper column or a
+          book page.
+        </p>
+
+        <h3>Letter-Spacing</h3>
+        <p class="letters-wide">Wide letter-spacing for small uppercase labels</p>
+        <p class="letters-tight">Tight letter-spacing for large display text</p>
+      </section>
+
+      <!-- ===== Section 3: Text Emphasis ===== -->
+      <section id="emphasis">
+        <h2>Text Emphasis</h2>
+
+        <p>Font weights: <span class="w300">Light 300</span>, <span class="w400">Regular 400</span>, <span class="w600">Semi-bold 600</span>, <span class="w700">Bold 700</span>.</p>
+
+        <p>Font styles: <span class="style-normal">Normal</span>, <span class="style-italic">Italic</span>.</p>
+
+        <p>
+          Text decorations:
+          <span class="deco-underline">underline</span>,
+          <span class="deco-overline">overline</span>,
+          <span class="deco-through">line-through</span>,
+          <a href="#emphasis" class="deco-none">a link without underline</a>,
+          <a href="#emphasis" class="deco-wavy">a link with wavy underline</a>.
+        </p>
+
+        <p>Text transform: <span class="upper">uppercase text</span>, <span class="capital">capitalized text</span>.</p>
+
+        <blockquote>
+          &ldquo;Design is not just what it looks like and feels like. Design is
+          how it works.&rdquo;
+        </blockquote>
+      </section>
+    </main>
+
+    <footer>
+      <p><small>Fonts: Playfair Display and Source Sans 3 from Google Fonts</small></p>
+    </footer>
+  </body>
+</html>
